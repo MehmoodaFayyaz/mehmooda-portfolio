@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mehmooda Fayyaz | Research Portfolio</title>
+
+    <meta name="description" content="Explore the research, projects, publications and professional journey of Mehmooda Fayyaz.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8fafc;
+            color: #172033;
+            line-height: 1.7;
+        }
+
+        header {
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #173b68;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #334155;
+            margin-left: 22px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        .hero {
+            padding: 110px 8%;
+            background: linear-gradient(120deg, #edf4ff, #ffffff);
+        }
+
+        .hero span {
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        .hero h1 {
+            font-size: clamp(38px, 6vw, 60px);
+            line-height: 1.15;
+            margin: 18px 0;
+            max-width: 750px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            color: #64748b;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 28px;
+            padding: 12px 25px;
+            background: #173b68;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        section {
+            padding: 75px 8%;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            max-width: 750px;
+            color: #64748b;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 22px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #173b68;
+        }
+
+        .light {
+            background: #edf4ff;
+        }
+
+        footer {
+            padding: 30px 8%;
+            text-align: center;
+            background: #173b68;
+            color: white;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 0;
+            }
+
+            .hero {
+                padding: 75px 8%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Mehmooda Fayyaz</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#research">Research</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <span>WELCOME TO MY RESEARCH PORTFOLIO</span>
+
+            <h1>Exploring Biology Through Research and Data.</h1>
+
+            <p>
+                I am a Biotechnology researcher interested in
+                computational biology, cancer research and
+                understanding complex biological systems.
+            </p>
+
+            <a href="#research" class="btn">Explore My Work</a>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I have an academic background in Biotechnology
+                and molecular biology. My interests are growing
+                towards computational approaches to understanding
+                cancer biology, genomics and the tumour
+                microenvironment.
+            </p>
+        </section>
+
+        <section class="light" id="research">
+            <h2>Research Interests</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Cancer Biology</h3>
+                    <p>Understanding cancer mechanisms and tumour development.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Computational Biology</h3>
+                    <p>Exploring biological data through computational analysis.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Immuno-oncology</h3>
+                    <p>Investigating interactions between cancer and the immune system.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Research Projects</h2>
+
+            <p>
+                A growing collection of research projects,
+                computational analyses and scientific work
+                will be showcased here.
+            </p>
+        </section>
+
+        <section class="light" id="contact">
+            <h2>Let's Connect</h2>
+
+            <p>
+                Interested in research, scientific collaboration
+                or exchanging ideas? I'd be happy to connect.
+            </p>
+
+            <a href="mailto:YOUR_EMAIL@example.com" class="btn">
+                Contact Me
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Mehmooda Fayyaz. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
